@@ -17,7 +17,7 @@ int main(void)
     bob.setBrightness(4);       
     bob.writeRaw(0,0x71);    
     bob.writeRaw(1,0x77);
-    bob.writeRaw(2,0x06);
+    bob.writeRaw(2,0x30);
     bob.writeRaw(3,0x24);  
     for(;;);
 }
